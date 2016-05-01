@@ -1,8 +1,12 @@
-# Ignore wp-config.php and .htaccess
-wp-config.php
-.htaccess
+#Ignore vendor and lock file
+/vendor
+/composer.lock
 
-# Ignore wp core 
+# Ignore wp-config.php and .htaccess
+/wp-config.php
+/.htaccess
+
+# Ignore wp core
 /wp
 
 # Don’t ignore plugins dir, but ignore everything inside
@@ -12,5 +16,3 @@ wp-config.php
 # Don’t ignore plugins dir, but ignore everything inside
 !/wp-content/themes
 /wp-content/themes/*
-
-
